@@ -1,0 +1,83 @@
+.header{
+    background-image: url(https://flash-hire.co/static/media/hero-background-image.865e12e83116835d6207.png);
+    //background-image: url(../background-img.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.flash{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 200px;
+    margin-bottom: 3rem;
+    &_btn{
+        color:white;
+        outline:blue solid 1px;
+        background: #111227;
+        padding: 10px 20px;
+    }
+    &_box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 26px;
+            color: #FFFFFF;
+        }
+    }
+}
+.head{
+    display: flex;
+    align-items: center;
+    padding: 24px 200px;
+    padding-bottom: 15rem;
+    &_data{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px;
+        width: 555px;
+        height: 303px;
+    }
+    &_span{
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 146%;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    &_highlight{
+        color:#1771E4;
+    }
+    &_heading{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 130%;
+        color: #FFFFFF;  
+    }
+    &_btn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px;
+        gap: 6px;
+        width: 180px;
+        height: 48px;
+        color:white;
+        background: linear-gradient(0deg, #1771E4, #1771E4), linear-gradient(90.97deg, #00C6FB -13.19%, #005BEA 67.56%);
+        border-radius: 8px;  
+    }
+    &_img{
+        width: 470px;
+        height: 494px;
+        left: 770px;
+        top: 157px;
+        
+    }
+}

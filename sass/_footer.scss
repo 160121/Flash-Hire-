@@ -1,0 +1,87 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 80px 200px;
+    gap: 185px;
+    position: absolute;
+    width: 1440px;
+    height: 357px;
+    background: #F3F4F4;
+    &_side{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 60px;
+        width: 248px;
+        height: 197px;
+    }
+    &_contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap:10px;
+        margin: auto;
+        width: 243px;
+        height: 66px;
+    }
+    &_contact{
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 146%;
+        color: #000000; 
+    }
+    &_mail{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 146%;
+        color: #000000;  
+    }
+    &_follow{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 24px;
+        
+        width: 248px;
+        height: 71px;
+        
+    }
+    &_data{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        //gap: 16px;
+        width: 360px;
+        height: 99px;
+    }
+    &_para{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 146%;
+        color: #767676; 
+    }
+    &_head{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 146%;
+        color: #000000;
+        
+    }
+    &_media{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 32px; 
+        width: 248px;
+        height: 24px;
+        
+    }
+}
