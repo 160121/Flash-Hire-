@@ -1,14 +1,14 @@
 {
-  "name": "flash-hire",
+  "name": "sass",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-   "compile:sass":"node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css"
   },
   "author": "navya",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "node-sass": "^8.0.0"
   }
 }
